@@ -185,7 +185,7 @@ class NFA:
             if not self.time_queue: 
                 self.time_queue = deque(time_range)
             cur_time = self.time_queue.popleft()
-            # time.sleep(1)
+            time.sleep(1)
             change = self.transition(cur_time)
             self.health_manage()
             self.life_count_manage()
