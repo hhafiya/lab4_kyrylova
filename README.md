@@ -2,7 +2,8 @@
 день змінюється. Дія обирається рандомно, або від того, що зʼявляється додаткова подія. Персонає має 3 життя, поки стан не стане кінцевим, тобто sleep або dead автомат не зупиниться, якщо день закінчився, але стан не був отриманий, то починається новий день.
 
 Приклади виводу:
-------------------------------------------------------------------------------
+
+```python
 Current state: wake_up, time: 8.0am, health: 30, life count: 3
 Current state: eat, time: 8.5am, health: 30, life count: 3
 ... 9.0am ...
@@ -33,7 +34,9 @@ Current state: eat, time: 18.0pm, health: 30, life count: 3
 ... 21.5pm ...
 Current state: sleep, time: 22.0pm, health: 30, life count: 3
 Routine day is over. You are asleep.
-------------------------------------------------------------------------------
+
+
+
 Current state: wake_up, time: 8.0am, health: 30, life count: 3
 Current state: eat, time: 8.5am, health: 30, life count: 3
 ... 9.0am ...
@@ -64,8 +67,10 @@ Current state: eat, time: 18.0pm, health: 30, life count: 3
 ... 21.5pm ...
 Current state: sleep, time: 22.0pm, health: 30, life count: 3
 Routine day is over. You are asleep.
-ira@MacBook-Air-Irina git % /usr/local/bin/python3 "/Users/ira/Desktop/   /Уку/Д
-М/лаба 4/git/lab4_kyrylova/nfa.py"
+
+
+
+
 Current state: wake_up, time: 8.0am, health: 30, life count: 3
 Current state: gather, time: 8.5am, health: 30, life count: 3
 ... 9.0am ...
@@ -144,7 +149,7 @@ Current state: eat, time: 20.0pm, health: 30, life count: 1
 ... 21.5pm ...
 Current state: sleep, time: 22.0pm, health: 30, life count: 1
 Routine day is over. You are asleep.
-------------------------------------------------------------------------------
+
 Current state: wake_up, time: 8.0am, health: 30, life count: 3
 Current state: gather, time: 8.5am, health: 30, life count: 3
 ... 9.0am ...
@@ -221,5 +226,5 @@ Current state: fight, time: 20.0pm, health: 0, life count: 1
 Current state: death, time: 20.5pm, health: 0, life count: 0
 Current state: dead, time: 21.0pm, health: 0, life count: 0
 Routine day is over. You are dead
-------------------------------------------------------------------------------
+```python
 Час змінюється кожні 30 хвилин.
