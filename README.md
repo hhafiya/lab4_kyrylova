@@ -34,9 +34,9 @@ Current state: eat, time: 18.0pm, health: 30, life count: 3
 ... 21.5pm ...
 Current state: sleep, time: 22.0pm, health: 30, life count: 3
 Routine day is over. You are asleep.
+```python
 
-
-
+```python
 Current state: wake_up, time: 8.0am, health: 30, life count: 3
 Current state: eat, time: 8.5am, health: 30, life count: 3
 ... 9.0am ...
@@ -67,10 +67,10 @@ Current state: eat, time: 18.0pm, health: 30, life count: 3
 ... 21.5pm ...
 Current state: sleep, time: 22.0pm, health: 30, life count: 3
 Routine day is over. You are asleep.
+```python
 
 
-
-
+```python
 Current state: wake_up, time: 8.0am, health: 30, life count: 3
 Current state: gather, time: 8.5am, health: 30, life count: 3
 ... 9.0am ...
